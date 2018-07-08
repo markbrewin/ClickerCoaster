@@ -1,0 +1,137 @@
+body {
+    background-color: #121212;
+    margin-bottom: 50px;
+    overflow-y: scroll;
+    -webkit-touch-callout: none; /* iOS Safari */
+      -webkit-user-select: none;   /* Chrome/Safari/Opera */
+      -khtml-user-select: none;    /* Konqueror */
+      -moz-user-select: none;      /* Firefox */
+      -ms-user-select: none;       /* Internet Explorer/Edge */
+      user-select: none;    
+}
+.brand-logo img {
+    height: 50px;
+    margin: 5px;
+}
+.row .col {
+    padding: 0px;
+}
+.companyLogo {
+    height: 20px;
+    margin: 15px;
+}
+.license {
+    height: 18px;
+}
+footer {
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 150;
+}
+footer.page-footer {
+    padding-top:0px;
+}
+.footer-copyright .container a {
+    color: white;
+    text-decoration: none;
+}
+li span {
+    font-size: 38px;
+    font-weight: 100;
+    letter-spacing: -3px;
+}
+.versionNumber {
+    font-size: 16px;
+    display: inline-block;
+}
+#nav-mobile li {
+    padding: 0 5px;
+}
+i {
+    display: inline-block;
+}
+nav i, nav [class^="mdi-"], nav [class*="mdi-"], nav i.material-icons {
+    display: inline-block;
+}
+nav {
+    line-height: 0px;
+}
+.card {
+    margin: 5px;
+}
+.card.small .card-image, .card.medium .card-image, .card.large .card-image {
+    height: 45%;
+}
+#splashscreen {
+    background:#212121; 
+    width: 100%;
+    height: 100%; 
+    z-index:1000;
+    top:0; 
+    left:0; 
+    position:fixed;
+    color:white;
+ }
+#splashHolder {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 500px;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+#splashHolder #mainLogo {
+    width: 425px;
+}
+#splashHolder .companyLogo {
+    margin: 0px;
+    height: 40px;
+    margin-top: -15px;
+}
+#splashscreen .progress {
+    position: absolute;
+    bottom: 0;
+    margin: 0;
+}
+.currentLevel {
+    position: absolute;
+    margin-top: -9px;
+    right: 10px;
+    font-size: 14px;
+}
+.btn-floating {
+    text-align: center;
+}
+.card-image .card-title {
+    color: white;
+    text-shadow: 2px 0 0 black, -2px 0 0 black, 0 2px 0 black, 0 -2px 0 black, 1px 1px black, -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black;
+}
+
+.card-action a{
+    font-size: 14px;
+}
+#businessOverview .row .row {
+    text-align: center;
+}
+.versionNumber {
+    cursor: pointer;
+}
+blockquote p{
+    font-weight: bold;
+}
+#mdlRingmyBell .modal-content{
+    overflow: hidden;
+}
+.tabs {
+    overflow: hidden;
+}
+#secondMenu {
+    top: 64px;
+    position: fixed;
+    z-index: 1000;
+}
+#facilities, #rides, #staff, #merchandise, #businessOverview {
+    margin-top: 58px;
+}
